@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    overflow-x: hidden;
+}
+
+.header {
+    background: #0056b3; /* Darker blue for header */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: #003d7a; /* Darker blue background for sections */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s ease-in-out;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.project {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #0056b3; /* Border color matching the header */
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.project:hover {
+    background: #0056b3; /* Matching the header color for hover effect */
+    color: #fff; /* Keep text white on hover */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
